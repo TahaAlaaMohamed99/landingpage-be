@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  /* line-height: 30px; */
+  text-rendering: auto;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  /* letter-spacing: 1px; */
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: rgba(255, 255, 255, 0);
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+
+img{
+	width: 100%;
+	height: 100%;
+}
+.height-15{
+  height: 150px;
+}
+.row{
+  width: 100%;
+    margin: 0;
+}
+.ml-0{
+  margin-left: 0 !important;
+}
+.mr-0{
+  margin-right: 0 !important;
+}
+h1,h2,h3,h4,h5,h6{
+	/* font-family: 'Raleway', sans-serif; */
+	font-weight: 700;
+}
+.py-45{
+	padding: 7% 0;
+}
+.pt-10{
+	padding-top: 10%  !important;
+	padding-bottom: 4% !important;
+}
+.img-overlay {
+  width: 100vw;
+  height: 46vh;
+  /* background: #08429854; */
+  /* opacity: .7; */
+  position: absolute;
+}
+.py-15{
+ padding: 10% 0;
+}
+
+.py-md-8{
+  padding: 8% 0;
+
+ }
+ .py-md-6{
+  padding: 5% 0;
+
+ }
+ .py-md-10{
+  padding: 10% 0;
+  /* width: 100%; */
+ }
+ .my-md-10{margin: 16% 0;clear: both;}
+a {
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: white
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.input-group-text{
+  height: 100%;
+}
+.align-form{
+  position: relative;
+  left: 30px;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  .hand{
+    top: 415px;
+    right: 26%;
+  }
+  
+}
+.leanding{
+  background-image: url(../images/be.jpg);
+  height:100%;
+  top: 0;
+  position: relative;
+  margin: 0;
+  padding-top: 95px;
+  padding-bottom: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:unset;
+}
+.container-leanding{
+  width: 85% !important;
+  margin: auto;
+}
+.leanding .slider{
+  background-color: #ededed;
+  border-radius:20px;
+  padding: 15px;
+  width: 100%;
+  margin-top: 15px;
+  overflow: hidden;
+}
+.img-swiper{
+  width: 100%;
+  height:130px
+}
+.box-free{
+  background-color: #ededed;
+  border-radius:20px;
+  padding: 15px;
+  width: 100%;
+}
+.box-free .box{
+  width: 100%;
+  height:310px;
+}
+.form-box{
+  background-color: #fff;
+  border-radius:20px;
+  padding: 15px;
+  width: 100%;
+}
+.form-box h4{
+  font-size:17px;
+  font-weight:bold
+}
+.Should{
+  color: #e43f52 
+}
+.form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  font-size: 16px;
+  text-align: center;
+  pointer-events: none;
+  color: #000;
+}
+.form-control{
+  padding-left: 40px;
+}
+input,textarea{
+  border: 1px solid #dee2e6 !important;
+    font-size: 12px !important;
+    line-height: 22px !important;
+    background-color: #fff !important;
+    border-radius: 6px !important;
+    outline: 0;
+    width: 100%;
+}
+textarea{
+  padding: 5px;
+  height: 55px;
+}
+.form-control:focus,textarea:focus{
+  box-shadow: none !important;
+  border: 1px solid #355ee5 !important;
+}
+.form-box button{
+  width: 100%;
+  margin: 0;
+  font-weight: 500;
+  padding: 11px;
+  font-size: 15px;
+  background-color: #355ee5;
+  color:#fff;
+}
+.form-box button:hover{
+  width: 100%;
+  margin: 0;
+  background-color: #355ee5;
+  color:#fff;
+}
+.form-box p{
+  font-size:15px;
+  margin-bottom: 2px;
+}
+.form-label{
+
+  font-size: 12px;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+.form-control {
+  padding-left: 40px;
+  height: 35px;
+}
